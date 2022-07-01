@@ -1,7 +1,7 @@
 
 Test task for mains_lab: 
 * `source run.sh install` - создаст виртуальное окружение, установит зависимости, применит миграции
-* `run.sh run` - start server (или `python manage.py runserver`)
+* `sh run.sh run` - start server (или `python manage.py runserver`)
 
 
 
