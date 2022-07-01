@@ -8,7 +8,7 @@ Test task for mains_lab:
 * `api/upload_org` - загрузка файла client_org.xlsx
 * `api/upload_bills` - загрузка файла bills.xlsx
 * `api/get_clients` - получение клиентов и кол-ва организаций
-* `api/get_bills` - получение счетов с возможностью филтроции по полю client_org
+* `api/get_bills` - получение счетов с возможностью филтрации по полю client_org
 
 
 ** **
