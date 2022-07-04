@@ -78,7 +78,7 @@ class UploadBills(APIView):
 
 class GetClients(ListAPIView):
     serializer_class = ClientSerializer
-    queryset = clients = Client.objects.annotate(organization_count=Count('organization'))
+    queryset = Client.objects.annotate(organization_count=Count('organization'))
 
 
 class GetListBills(generics.ListAPIView):
